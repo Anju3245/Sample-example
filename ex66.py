@@ -5,12 +5,12 @@ second = input()
 print("enter third number:")
 third = input()
 if frist > second:
-    print("the largest number is:",frist)
-else :
-    print("the largest number is:")
-if second >third:
-    print("the largest number is:",second)
-if third > second:
-    print("the largest number is:",third)
-else :
-    print("print largest number is:")
+    if frist > third:
+        print(f"{frist} is the largest")
+    else:
+        print(f"{third} is the largest ")
+else:
+     if second > third:
+        print(f"{second} the largest")
+     else:
+        print(f"{third} is the largest ")
